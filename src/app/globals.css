@@ -70,3 +70,7 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+#book {
+  transform: rotateX(360deg) rotateZ(2deg) perspective(1000px);
+}
