@@ -25,11 +25,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen overflow-hidden  bg-opacity-70 bg-[url('/bg.jpg')] bg-blend-multiply bg-cover bg-center bg-no-repeat`}
-      >
-        {children}
-      </body>
-    </html>
+  <body
+    className={`${geistSans.variable} ${geistMono.variable} antialiased h-fit flex lg:block items-center justify-center 
+    lg:bg-[url('/websitebackground.png')] bg-[url('/Websitebackgmobile.png')] bg-blend-multiply bg-cover bg-center bg-no-repeat`}
+  >
+    {children}
+  </body>
+</html>
+
   );
 }

@@ -10,6 +10,11 @@ export default {
   theme: {
   	extend: {
   		colors: {
+			envision_blue: "#272F74",
+                esperanza_dark_blue: "#00133F",
+                esperanza_very_dark_blue: "#020B2B",
+                esperanza_cyan_blue:"#63C9ED",
+				esperanza_very_cyan_blue:"#29BBEF",
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

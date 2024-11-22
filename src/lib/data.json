@@ -1,71 +1,71 @@
 {
   "faculty": {
-    "fsei": {
+    "Faculté des Sciences Exacts et Informatique": {
       "departments": {
         "informatique": {
           "Licence": {
             "semester_1": [
               {
                 "name": "Algorithmique et Structures de données",
-                "source": ""
+                "source": "https://drive.google.com/drive/folders/121q7RonguLuToMiknhdYRA1kV_-Si6wv?usp=drive_link"
               },
               {
                 "name": "Analyse 1",
-                "source": ""
+                "source": "https://drive.google.com/drive/folders/1KGDPzL1FXX4myuXg7bRXKzn3kfaNzhJ-?usp=drive_link"
               },
               {
                 "name": "Structure machine 1",
-                "source": ""
+                "source": "https://drive.google.com/drive/folders/1wgvtcMCvoTaVFJ0pbwKYTWmEahQIJCsL?usp=drive_link"
               },
               {
                 "name": "Langue étrangère 1",
-                "source": ""
+                "source": "https://drive.google.com/drive/folders/1kbDinJXa32YjHOGmAn9OEAzXtyUqa2Hh?usp=drive_link"
               },
               {
                 "name": "Electronique et composants des systèmes",
-                "source": ""
+                "source": "https://drive.google.com/drive/folders/13QonJuZuGylg6RbaMSi-opzZzqYnm2zb?usp=drive_link"
               },
               {
                 "name": "Algèbre 1",
-                "source": ""
+                "source": "https://drive.google.com/drive/folders/1KsK0iXIV-OccNk3KCZI5bDiXToXl34y-?usp=drive_link"
               },
               {
                 "name": "Terminologie",
-                "source": ""
+                "source": "https://drive.google.com/drive/folders/1c3pMSBRS2BYLt7aT-I3_xnu9McccMWvJ?usp=drive_link"
               }
             ],
             "semester_2": [
               {
                 "name": "Electricité générale",
-                "source": ""
+                "source": "https://drive.google.com/drive/folders/1MoD-ZqMPWNZ7c1QXqesBlWhGEgIR-LTZ?usp=drive_link"
               },
               {
                 "name": "Outils de programmation pour les mathématiques",
-                "source": ""
+                "source": "https://drive.google.com/drive/folders/12iG4WI2f3Qea2QwBezagCIkYZ4g0JkJk?usp=drive_link"
               },
               {
                 "name": "Technologie de l'information et de la communication",
-                "source": ""
+                "source": "https://drive.google.com/drive/folders/1z345RfHafMIsJ6oKv2tM6Y6WU5nBy-3I?usp=drive_link"
               },
               {
                 "name": "Introduction aux probabilités et statistiques",
-                "source": ""
+                "source": "https://drive.google.com/drive/folders/1lUPzECy3vvX9xpTqPLJ8ghzhn8sbHxTP?usp=drive_link"
               },
               {
-                "name": "Structure machine",
-                "source": ""
+                "name": "Structure machine 2",
+                "source": "https://drive.google.com/drive/folders/1Ay9FpILKeYAh0ng8Tnvp9PUK1Idpc4jy?usp=drive_link"
               },
               {
-                "name": "Algorithmique et structure de données",
-                "source": ""
+                "name": "Algorithmique et structure de données 2",
+                "source": "https://drive.google.com/drive/folders/1fDq5RKXldiOMmIV7DsnOj3-ONFcqC4uL?usp=drive_link"
               },
               {
                 "name": "Algèbre 2",
-                "source": ""
+                "source": "https://drive.google.com/drive/folders/1XKbsCgrmSdU_TNtrqArka8n2DPgwN22D?usp=drive_link"
               },
               {
                 "name": "Analyse 2",
-                "source": ""
+                "source": "https://drive.google.com/drive/folders/1MykHDaDHETHFCQO63s9ix-QXDAmYHhXx?usp=drive_link"
               }
             ],
             "semester_3": {

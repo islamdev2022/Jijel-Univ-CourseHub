@@ -1,7 +1,10 @@
-const FacultyList = ({facultesList} : {facultesList: Array<string>}) : any => {
-    <div className="bg-white rounded-xl w-[500px] h-[450px] ">
-        
-    </div>
-}
+const FacultyList = () => {
+    return ( <>
+    <div className="hover:scale-110 transition ease-in-out h-32 w-48 text-center flex justify-center items-center from-esperanza_cyan_blue border-sky-200 border bg-gradient-to-b rounded-xl">
+        <p className="font-bold">Faculty Name</p>
 
+    </div>
+    </> );
+}
+ 
 export default FacultyList;
