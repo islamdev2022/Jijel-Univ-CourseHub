@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="h-full">
   <body
     className={`${geistSans.variable} ${geistMono.variable} antialiased h-fit flex lg:block items-center justify-center 
     lg:bg-[url('/websitebackground.png')] bg-[url('/Websitebackgmobile.png')] bg-blend-multiply bg-cover bg-center bg-no-repeat`}

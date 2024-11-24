@@ -1,0 +1,779 @@
+{
+  "faculty": [
+    {
+      "name": "Faculté des Sciences Exactes et Informatique",
+      "departments": [
+        {
+          "name": "informatique",
+          "type": [
+            {
+              "name": "Licence",
+              "semester": [
+                {
+                  "name": "semester_1",
+                  "courses": [
+                    {
+                      "name": "Algorithmique et Structures de données",
+                      "source": "https://drive.google.com/drive/folders/121q7RonguLuToMiknhdYRA1kV_-Si6wv?usp=drive_link"
+                    },
+                    {
+                      "name": "Analyse 1",
+                      "source": "https://drive.google.com/drive/folders/1KGDPzL1FXX4myuXg7bRXKzn3kfaNzhJ-?usp=drive_link"
+                    },
+                    {
+                      "name": "Structure machine 1",
+                      "source": "https://drive.google.com/drive/folders/1wgvtcMCvoTaVFJ0pbwKYTWmEahQIJCsL?usp=drive_link"
+                    },
+                    {
+                      "name": "Langue étrangère 1",
+                      "source": "https://drive.google.com/drive/folders/1kbDinJXa32YjHOGmAn9OEAzXtyUqa2Hh?usp=drive_link"
+                    },
+                    {
+                      "name": "Electronique et composants des systèmes",
+                      "source": "https://drive.google.com/drive/folders/13QonJuZuGylg6RbaMSi-opzZzqYnm2zb?usp=drive_link"
+                    },
+                    {
+                      "name": "Algèbre 1",
+                      "source": "https://drive.google.com/drive/folders/1KsK0iXIV-OccNk3KCZI5bDiXToXl34y-?usp=drive_link"
+                    },
+                    {
+                      "name": "Terminologie",
+                      "source": "https://drive.google.com/drive/folders/1c3pMSBRS2BYLt7aT-I3_xnu9McccMWvJ?usp=drive_link"
+                    }
+                  ]
+                },
+                {
+                  "name": "semester_2",
+                  "courses": [
+                    {
+                      "name": "Electricité générale",
+                      "source": "https://drive.google.com/drive/folders/1MoD-ZqMPWNZ7c1QXqesBlWhGEgIR-LTZ?usp=drive_link"
+                    },
+                    {
+                      "name": "Outils de programmation pour les mathématiques",
+                      "source": "https://drive.google.com/drive/folders/12iG4WI2f3Qea2QwBezagCIkYZ4g0JkJk?usp=drive_link"
+                    },
+                    {
+                      "name": "Technologie de l'information et de la communication",
+                      "source": "https://drive.google.com/drive/folders/1z345RfHafMIsJ6oKv2tM6Y6WU5nBy-3I?usp=drive_link"
+                    },
+                    {
+                      "name": "Introduction aux probabilités et statistiques",
+                      "source": "https://drive.google.com/drive/folders/1lUPzECy3vvX9xpTqPLJ8ghzhn8sbHxTP?usp=drive_link"
+                    },
+                    {
+                      "name": "Structure machine 2",
+                      "source": "https://drive.google.com/drive/folders/1Ay9FpILKeYAh0ng8Tnvp9PUK1Idpc4jy?usp=drive_link"
+                    },
+                    {
+                      "name": "Algorithmique et structure de données 2",
+                      "source": "https://drive.google.com/drive/folders/1fDq5RKXldiOMmIV7DsnOj3-ONFcqC4uL?usp=drive_link"
+                    },
+                    {
+                      "name": "Algèbre 2",
+                      "source": "https://drive.google.com/drive/folders/1XKbsCgrmSdU_TNtrqArka8n2DPgwN22D?usp=drive_link"
+                    },
+                    {
+                      "name": "Analyse 2",
+                      "source": "https://drive.google.com/drive/folders/1MykHDaDHETHFCQO63s9ix-QXDAmYHhXx?usp=drive_link"
+                    }
+                  ]
+                },
+                {
+                  "name": "semester_3",
+                  "courses": [
+                    {
+                      "name": "Langue Étrangère 2",
+                      "source": ""
+                    },
+                    {
+                      "name": "Logique Mathématique",
+                      "source": ""
+                    },
+                    {
+                      "name": "Méthodes Numériques",
+                      "source": ""
+                    },
+                    {
+                      "name": "Théorie des Graphes",
+                      "source": ""
+                    },
+                    {
+                      "name": "Systèmes d'Information",
+                      "source": ""
+                    },
+                    {
+                      "name": "Architecture des Ordinateurs",
+                      "source": ""
+                    },
+                    {
+                      "name": "Algorithmique et Structure de Données",
+                      "source": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "semester_4",
+                  "courses": [
+                    {
+                      "name": "Programmation Orientée Objet",
+                      "source": ""
+                    },
+                    {
+                      "name": "Langue Étrangère 3",
+                      "source": ""
+                    },
+                    {
+                      "name": "Système d'Exploitation I",
+                      "source": ""
+                    },
+                    {
+                      "name": "Développement d'application Web",
+                      "source": ""
+                    },
+                    {
+                      "name": "Théorie de Language",
+                      "source": ""
+                    },
+                    {
+                      "name": "Réseaux de communication",
+                      "source": ""
+                    },
+                    {
+                      "name": "Base de données",
+                      "source": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "semester_5",
+                  "courses": [
+                    {
+                      "name": "Economie Numérique et veille Stratégique",
+                      "source": ""
+                    },
+                    {
+                      "name": "Programmation Linéaire",
+                      "source": ""
+                    },
+                    {
+                      "name": "Probabilités et Statistiques",
+                      "source": ""
+                    },
+                    {
+                      "name": "Interface Homme Machine",
+                      "source": ""
+                    },
+                    {
+                      "name": "Génie Logiciel",
+                      "source": ""
+                    },
+                    {
+                      "name": "Compilation",
+                      "source": ""
+                    },
+                    {
+                      "name": "Systèmes d'Exploitation",
+                      "source": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "semester_6",
+                  "courses": [
+                    {
+                      "name": "Créer et Développer une startup",
+                      "source": ""
+                    },
+                    {
+                      "name": "Projet",
+                      "source": ""
+                    },
+                    {
+                      "name": "Données semi-structurées DS",
+                      "source": ""
+                    },
+                    {
+                      "name": "Intelligence Artificielle",
+                      "source": ""
+                    },
+                    {
+                      "name": "Module Rédaction scientifique",
+                      "source": ""
+                    },
+                    {
+                      "name": "Module Sécurité Informatique",
+                      "source": ""
+                    },
+                    {
+                      "name": "Applications Mobiles",
+                      "source": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Master",
+              "majors": [
+                {
+                  "name": "ilm",
+                  "semester": [
+                    {
+                      "name": "semester_1",
+                      "courses": [
+                        { "name": "Langue Etrangère 1", "source": "" },
+                        {
+                          "name": "Droit et Etique informatiques",
+                          "source": ""
+                        },
+                        {
+                          "name": "Traitement Numérique du Multimédia",
+                          "source": ""
+                        },
+                        { "name": "Analyse de Données", "source": "" },
+                        { "name": "Base de Données et Internet", "source": "" },
+                        { "name": "Systèmes de Reconnaissance", "source": "" },
+                        { "name": "Cryptologie", "source": "" },
+                        { "name": "Cybercriminalité", "source": "" }
+                      ]
+                    },
+                    {
+                      "name": "semester_2",
+                      "courses": [
+                        { "name": "Langue Etrangère 2", "source": "" },
+                        { "name": "Rapport Techniques", "source": "" },
+                        { "name": "Fouille de donnée", "source": "" },
+                        {
+                          "name": "Commerce et Paiement Electroniques",
+                          "source": ""
+                        },
+                        {
+                          "name": "Menaces et Intrusions Informatique",
+                          "source": ""
+                        },
+                        { "name": "Cryptologie II", "source": "" },
+                        { "name": "Biométrie", "source": "" },
+                        { "name": "TNM 2", "source": "" }
+                      ]
+                    },
+                    {
+                      "name": "semester_3",
+                      "courses": [
+                        {
+                          "name": "Corruption et Déontologie de Travail",
+                          "source": ""
+                        },
+                        {
+                          "name": "Conduite de Projets et Entrepreariat",
+                          "source": ""
+                        },
+                        { "name": "Recherche Documentaire", "source": "" },
+                        { "name": "Mini -Projet", "source": "" },
+                        {
+                          "name": "Qualité des Données Multimédia",
+                          "source": ""
+                        },
+                        {
+                          "name": "Sécurité et Analyse Forensique du Multimédia",
+                          "source": ""
+                        },
+                        { "name": "Informatique Légale", "source": "" },
+                        {
+                          "name": "Analyse Forensiqque des Systémes Informatiques",
+                          "source": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "siad",
+                  "semester": [
+                    {
+                      "name": "semester_1",
+                      "courses": [
+                        { "name": "Langue Etrangère", "source": "" },
+                        {
+                          "name": "Gestion et Organisation des Entreprises",
+                          "source": ""
+                        },
+                        {
+                          "name": "Modélisation en aide à la décision",
+                          "source": ""
+                        },
+                        { "name": "Analyse de Données", "source": "" },
+                        { "name": "Simulation et Prototypage", "source": "" },
+                        { "name": "Génie Logiciel Avancé", "source": "" },
+                        { "name": "Entrepot de Données", "source": "" },
+                        { "name": "Base de Données et Internet", "source": "" }
+                      ]
+                    },
+                    {
+                      "name": "semester_2",
+                      "courses": [
+                        { "name": "Rapport Techniques", "source": "" },
+                        { "name": "Méta-heuristiques", "source": "" },
+                        {
+                          "name": "Intelligence Artificielle Avancée",
+                          "source": ""
+                        },
+                        {
+                          "name": "Architecture des Systèmes Distribués",
+                          "source": ""
+                        },
+                        { "name": "Systèmes en Réseaux", "source": "" },
+                        { "name": "Administration et Sécurite", "source": "" }
+                      ]
+                    },
+                    {
+                      "name": "semester_3",
+                      "courses": [
+                        {
+                          "name": "Corruption et Déontologie de Travail",
+                          "source": ""
+                        },
+                        {
+                          "name": "Conduite de Projets et Entrepreariat",
+                          "source": ""
+                        },
+                        { "name": "Recherche Documentaire", "source": "" },
+                        { "name": "Mini -Projet", "source": "" },
+                        {
+                          "name": "Qualité des Données Multimédia",
+                          "source": ""
+                        },
+                        {
+                          "name": "Sécurité et Analyse Forensique du Multimédia",
+                          "source": ""
+                        },
+                        { "name": "Informatique Légale", "source": "" },
+                        {
+                          "name": "Analyse Forensiqque des Systémes Informatiques",
+                          "source": ""
+                        },
+                        {
+                          "name": "Aide Multicritére à la décision",
+                          "source": ""
+                        },
+                        { "name": "Base's de Données Avancées", "source": "" },
+                        {
+                          "name": "Systèmes d’informations, méthodes avancées",
+                          "source": ""
+                        },
+                        {
+                          "name": "Sécurité des Systémes d'Information",
+                          "source": ""
+                        },
+                        { "name": "Réseau et Télécom", "source": "" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "réseaux_et_sécurité",
+                  "semester": [
+                    {
+                      "name": "semester_1",
+                      "courses": [
+                        { "name": "Anglais I", "source": "" },
+                        {
+                          "name": "Architecture et Systémes Informatique Intelligent",
+                          "source": ""
+                        },
+                        {
+                          "name": "Fouille et Extraction de Données",
+                          "source": ""
+                        },
+                        {
+                          "name": "Algorithme et Performance Garantie",
+                          "source": ""
+                        },
+                        { "name": "Théorie d'Information", "source": "" },
+                        { "name": "Cryptographie", "source": "" },
+                        { "name": "Systémes Répartis", "source": "" },
+                        { "name": "Réseaux et Protocoles", "source": "" }
+                      ]
+                    },
+                    {
+                      "name": "semester_2",
+                      "courses": [
+                        { "name": "Anglais II", "source": "" },
+                        { "name": "Rapports Techniques", "source": "" },
+                        { "name": "Bases de Données Réparties", "source": "" },
+                        { "name": "Vulnérabilités Des systèmes", "source": "" },
+                        { "name": "Réseaux Avancés (RA)", "source": "" },
+                        {
+                          "name": "Evaluation de performances des réseaux et systèmes informatiques",
+                          "source": ""
+                        },
+                        { "name": "Réseaux et flux multimédia", "source": "" },
+                        { "name": "Protocole de sécurité", "source": "" }
+                      ]
+                    },
+                    {
+                      "name": "semester_3",
+                      "courses": [
+                        {
+                          "name": "Corruption et Déontologie de Travail",
+                          "source": ""
+                        },
+                        {
+                          "name": "Conduite de Projet et Entreprenariat",
+                          "source": ""
+                        },
+                        {
+                          "name": "Méthodologie et Evaluation des Systémes Informatique",
+                          "source": ""
+                        },
+                        {
+                          "name": "Simulateur et Emulation Systémes en réseaux",
+                          "source": ""
+                        },
+                        { "name": "Services Web", "source": "" },
+                        {
+                          "name": "Systèmes et Protocoles Applicatifs de l'Internet",
+                          "source": ""
+                        },
+                        {
+                          "name": "Virtualisation et Cloud computing",
+                          "source": ""
+                        },
+                        {
+                          "name": "Administration de la Sécurité des Systèmes et Réseau",
+                          "source": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "ai",
+                  "semester": [
+                    {
+                      "name": "semester_1",
+                      "courses": [
+                        {
+                          "name": "Environnement et Programmation Dédiée",
+                          "source": ""
+                        },
+                        { "name": "Langue Etrangère", "source": "" },
+                        { "name": "Sémantique des Languages", "source": "" },
+                        { "name": "Graphes et Optimisation", "source": "" },
+                        {
+                          "name": "Techniques Avancées pour l'IA",
+                          "source": ""
+                        },
+                        {
+                          "name": "Résolution Collective des Problèmes RCP",
+                          "source": ""
+                        },
+                        { "name": "Apprentissage Automatique", "source": "" },
+                        {
+                          "name": "Représentation de la Connaissance RC",
+                          "source": ""
+                        }
+                      ]
+                    },
+                    {
+                      "name": "semester_2",
+                      "courses": [
+                        {
+                          "name": "Environnement et Programmation Smartphones EPS",
+                          "source": ""
+                        },
+                        {
+                          "name": "Techniques Avancées pour l'IA 2",
+                          "source": ""
+                        },
+                        { "name": "EPS (1)", "source": "" },
+                        { "name": "Programmation Discrète", "source": "" },
+                        {
+                          "name": "Recherche Intelligente et Collaborative",
+                          "source": ""
+                        },
+                        { "name": "Reconnaissance des Formes", "source": "" },
+                        {
+                          "name": "Raisonnements et Exploitation de la Connaissance",
+                          "source": ""
+                        },
+                        { "name": "Startups et Entreprenariat", "source": "" },
+                        {
+                          "name": "Modèles de Connaissances Incertaines",
+                          "source": ""
+                        }
+                      ]
+                    },
+                    {
+                      "name": "semester_3",
+                      "courses": [
+                        {
+                          "name": "Recherche Documentaire et Rapport Technique RDRT",
+                          "source": ""
+                        },
+                        {
+                          "name": "Déontologie et Ethique Informatique DEI",
+                          "source": ""
+                        },
+                        {
+                          "name": "Indexation et Recherche d'Images IRI",
+                          "source": ""
+                        },
+                        { "name": "Fouille de Données FD", "source": "" },
+                        { "name": "Théorie des jeux (JT)", "source": "" },
+                        { "name": "Systémes Intelligents SI", "source": "" },
+                        {
+                          "name": "Vision et Perception de l'Environnement (VPE)",
+                          "source": ""
+                        },
+                        {
+                          "name": "Analyse & Synthèse d'Image(ASI)",
+                          "source": ""
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sciences_exact",
+          "type": [
+            {
+              "name": "math",
+              "semester": [
+                { "name": "semester_1", "courses": [] },
+                { "name": "semester_2", "courses": [] },
+                { "name": "semester_3", "courses": [] },
+                { "name": "semester_4", "courses": [] },
+                { "name": "semester_5", "courses": [] },
+                { "name": "semester_6", "courses": [] }
+              ]
+            },
+            {
+              "name": "sm",
+              "semester": [
+                { "name": "semester_1", "courses": [] },
+                { "name": "semester_2", "courses": [] }
+              ]
+            },
+            {
+              "name": "mi",
+              "semester": [
+                { "name": "semester_1", "courses": [] },
+                { "name": "semester_2", "courses": [] }
+              ]
+            },
+            {
+              "name": "physics",
+              "semester": [
+                { "name": "semester_3", "courses": [] },
+                { "name": "semester_4", "courses": [] },
+                { "name": "semester_5", "courses": [] },
+                { "name": "semester_6", "courses": [] }
+              ]
+            },
+            {
+              "name": "chimie",
+              "semester": [
+                { "name": "semester_3", "courses": [] },
+                { "name": "semester_4", "courses": [] },
+                { "name": "semester_5", "courses": [] },
+                { "name": "semester_6", "courses": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fsnv",
+      "departments": [
+        {
+          "name": "electronique",
+          "type": [
+            {
+              "name": "Licence",
+              "semester": [
+                { "name": "semester_3", "courses": [] },
+                { "name": "semester_4", "courses": [] },
+                { "name": "semester_5", "courses": [] },
+                { "name": "semester_6", "courses": [] }
+              ]
+            },
+            {
+              "name": "Master",
+              "semester": [
+                { "name": "semester_3", "courses": [] },
+                { "name": "semester_4", "courses": [] },
+                { "name": "semester_5", "courses": [] },
+                { "name": "semester_6", "courses": [] }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "electrotechnique",
+          "type": [
+            {
+              "name": "Licence",
+              "semester": [
+                { "name": "semester_3", "courses": [] },
+                { "name": "semester_4", "courses": [] },
+                { "name": "semester_5", "courses": [] },
+                { "name": "semester_6", "courses": [] }
+              ]
+            },
+            {
+              "name": "Master",
+              "semester": [
+                { "name": "semester_3", "courses": [] },
+                { "name": "semester_4", "courses": [] },
+                { "name": "semester_5", "courses": [] },
+                { "name": "semester_6", "courses": [] }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "automatique",
+          "type": [
+            {
+              "name": "Licence",
+              "semester": [
+                { "name": "semester_3", "courses": [] },
+                { "name": "semester_4", "courses": [] },
+                { "name": "semester_5", "courses": [] },
+                { "name": "semester_6", "courses": [] }
+              ]
+            },
+            {
+              "name": "Master",
+              "semester": [
+                { "name": "semester_1", "courses": [] },
+                { "name": "semester_2", "courses": [] },
+                { "name": "semester_3", "courses": [] }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "genie_des_procedes",
+          "type": [
+            {
+              "name": "Licence",
+              "semester": [
+                { "name": "semester_3", "courses": [] },
+                { "name": "semester_4", "courses": [] },
+                { "name": "semester_5", "courses": [] },
+                { "name": "semester_6", "courses": [] }
+              ]
+            },
+            {
+              "name": "Master",
+              "semester": []
+            }
+          ]
+        },
+        {
+          "name": "genie_civil_et_hydraulique",
+          "type": [
+            {
+              "name": "Licence",
+              "semester": [
+                { "name": "semester_3", "courses": [] },
+                { "name": "semester_4", "courses": [] },
+                { "name": "semester_5", "courses": [] },
+                { "name": "semester_6", "courses": [] }
+              ]
+            },
+            {
+              "name": "Master",
+              "semester": []
+            }
+          ]
+        },
+        {
+          "name": "genie_mecanique",
+          "type": [
+            {
+              "name": "Licence",
+              "semester": []
+            },
+            {
+              "name": "Master",
+              "semester": []
+            }
+          ]
+        },
+        {
+          "name": "architecture",
+          "type": [
+            {
+              "name": "Licence",
+              "semester": []
+            },
+            {
+              "name": "Master",
+              "semester": []
+            }
+          ]
+        },
+        {
+          "name": "enseignements_fondamentaux_dans_le_domaine_des_sciences_et_technologie",
+          "type": [
+            {
+              "name": "Licence",
+              "semester": [
+                {
+                  "name": "semester_1",
+                  "courses": [
+                    { "name": "Mathématiques 1", "source": "" },
+                    { "name": "Physique 1", "source": "" },
+                    { "name": "Structure de la matière", "source": "" },
+                    { "name": "TP Physique 1", "source": "" },
+                    { "name": "TP Chimie 1", "source": "" },
+                    { "name": "Informatique 1", "source": "" },
+                    { "name": "Méthodologie de la rédaction", "source": "" },
+                    {
+                      "name": "Les métiers en Sciences et Technologies 1",
+                      "source": ""
+                    },
+                    {
+                      "name": "Langue étrangère 1 (Français et/ou anglais)",
+                      "source": ""
+                    },
+                    {
+                      "name": "Ethique et déontologie(les fondements)",
+                      "source": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "semester_2",
+                  "courses": [
+                    { "name": "Mathématiques 2", "source": "" },
+                    { "name": "Physique 2", "source": "" },
+                    { "name": "TP Physique 2", "source": "" },
+                    { "name": "Thermodynamique", "source": "" },
+                    { "name": "TP Chimie 2", "source": "" },
+                    { "name": "Informatique 2", "source": "" },
+                    { "name": "Méthodologie de la présentation", "source": "" },
+                    {
+                      "name": "Les métiers en Sciences et Technologies 2",
+                      "source": ""
+                    },
+                    { "name": "Anglais 2", "source": "" },
+                    { "name": "archive22-23 TP Chimie 2", "source": "" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

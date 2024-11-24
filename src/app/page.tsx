@@ -2,8 +2,18 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import FacultyList from "@/components/FacultyList";
 import Footer from "@/components/Footer";
+import {faculty} from '@/lib/data copy.json'
 export default function Home() {
-  
+  const semester_1: { name: string; source: string; }[][] = [];
+  faculty.forEach(f => {
+    f.departments.forEach(d => {
+      d.type.forEach(t => {
+        t.semester?.forEach(s => {
+          s.name == "semester_1" ? semester_1.push(s.courses) : false;
+        })
+      })
+    })
+  })
   return (
     <div className="h-fit">
       <div className="flex flex-col p-3 space-y-[14px] items-center justify-center">
@@ -18,8 +28,11 @@ export default function Home() {
 
       </div>
       <div className="flex flex-wrap gap-16 justify-center lg:px-20 ">
-      <FacultyList />
-      <FacultyList /><FacultyList /><FacultyList /><FacultyList /><FacultyList />
+    {semester_1.map(s => (
+      s.map(s => (
+        <FacultyList fName={s.name} />
+      ))
+    ))}
       </div>
       </div>
       <Footer />
