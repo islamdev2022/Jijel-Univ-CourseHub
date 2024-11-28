@@ -11,6 +11,7 @@ import {   DropdownMenu,
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger, } from "@/components/ui/dropdown-menu";
+import React from "react";
 export default function Home() {
   const router = useRouter();
   return (
@@ -35,9 +36,9 @@ export default function Home() {
     </DropdownMenuTrigger>
     <DropdownMenuContent align="center" side="bottom">
       {f.departments.map((d, index) => (
-        <><DropdownMenuItem onClick={() => router.push(`/departement/${d.name}`)} key={d.name}>{d.name.replace(/_/g, " ")}</DropdownMenuItem>
+        <React.Fragment key={index}><DropdownMenuItem  onClick={() => router.push(`/departement/${d.name}`)} key={d.name}>{d.name.replace(/_/g, " ")}</DropdownMenuItem>
         {index < f.departments.length - 1 && <DropdownMenuSeparator key={d.name + Math.random()} />}
-        </>
+        </React.Fragment>
       ))}
      
     </DropdownMenuContent>
