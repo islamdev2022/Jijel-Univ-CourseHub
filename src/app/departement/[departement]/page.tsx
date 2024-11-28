@@ -37,7 +37,8 @@ export default function Departement() {
     .find((d) => d?.name !== undefined);
   return (
     <div className="h-screen flex  justify-center">
-      <div className="p-3">
+      <div className="p-3 space-y-[24px] ">
+        <h1 className="text-2xl font-semibold font-sans">Departement : {depa?.name.replace(/_/g, "")}</h1>
         <div className="flex space-x-[50px]">
           {/* Licence Section */}
           <div className="flex h-max shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flex-col items-center rounded-xl py-3 w-[250px] bg-white space-y-5">
@@ -72,12 +73,13 @@ export default function Departement() {
                 <DialogContent>
                   <DialogTitle className="hidden"></DialogTitle>
                   {Courses.map((c) => (
-                    <li
+                    <a
                       key={c.name}
+                      href={c.source}
                       className="py-2 text-xl rounded-xl list-none bg-slate-100 px-[40px]"
                     >
                       {c.name}
-                    </li>
+                    </a>
                   ))}
                   <DialogFooter></DialogFooter>
                 </DialogContent>
@@ -129,12 +131,13 @@ export default function Departement() {
                           </DialogTitle>
 
                           {Courses.map((course) => (
-                            <li
+                            <a
                               key={course.name}
+                              href={course.source}
                               className="py-2 text-lg rounded-xl list-none bg-slate-100 px-[20px]"
                             >
                               {course.name}
-                            </li>
+                            </a>
                           ))}
                         </DialogContent>
                       </Dialog>
