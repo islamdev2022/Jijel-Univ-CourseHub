@@ -24,6 +24,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useState, useRef } from "react";
 import { DialogTitle, DialogTrigger } from "@radix-ui/react-dialog";
+import React from "react";
 export default function Departement() {
   const [isLicenceExpanded, setIsLicenceExpanded] = useState(false);
   const [isMasterExpanded, setIsMasterExpanded] = useState(false);
@@ -109,12 +110,12 @@ export default function Departement() {
                     </DropdownMenuTrigger>
 
                     {/* Semesters Dropdown */}
-                    <DropdownMenuContent>
+                    <DropdownMenuContent className="flex flex-col">
                       <Dialog>
-                        {major.semester?.map((semester) => (
+                        {major.semester?.map((semester, index) => (
                           <DialogTrigger
                             key={semester.name + Math.random()}
-                            asChild
+                            
                           >
                             <DropdownMenuItem
                               onSelect={(e) => e.preventDefault()}
@@ -123,6 +124,7 @@ export default function Departement() {
                             >
                               {semester.name.replace(/_/g, " ")}
                             </DropdownMenuItem>
+                            {index < major.semester.length -1 && <DropdownMenuSeparator />}
                           </DialogTrigger>
                         ))}
                         <DialogContent>
