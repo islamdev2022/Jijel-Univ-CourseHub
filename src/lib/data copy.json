@@ -4,7 +4,7 @@
       "name": "Faculté des Sciences Exactes et Informatique",
       "departments": [
         {
-          "name": "informatique",
+          "name": "Informatique",
           "type": [
             {
               "name": "Licence",
@@ -84,31 +84,31 @@
                   "courses": [
                     {
                       "name": "Langue Étrangère 2",
-                      "source": ""
+                      "source": "https://drive.google.com/drive/folders/11hhsOe6CmSGNzUNrK4qPXLq3BAXRMJOi?usp=sharing"
                     },
                     {
                       "name": "Logique Mathématique",
-                      "source": ""
+                      "source": "https://drive.google.com/drive/folders/1T-oGsaFXWLKHEY2DwHGq5Q8oCQ3ahQlB?usp=drive_link"
                     },
                     {
                       "name": "Méthodes Numériques",
-                      "source": ""
+                      "source": "https://drive.google.com/drive/folders/1eJlmc4b6zBRO2BXHLsP5dvAUSXpvEuT0?usp=drive_link"
                     },
                     {
                       "name": "Théorie des Graphes",
-                      "source": ""
+                      "source": "https://drive.google.com/drive/folders/1nSeUGNNPoqg7nPfgaPxk_4Z3Wvf4jV49?usp=drive_link"
                     },
                     {
                       "name": "Systèmes d'Information",
-                      "source": ""
+                      "source": "https://drive.google.com/drive/folders/1KcCLmgyl5nKLjoKfAJuimbwdYojx_aJN?usp=drive_link"
                     },
                     {
                       "name": "Architecture des Ordinateurs",
-                      "source": ""
+                      "source": "https://drive.google.com/drive/folders/1n_M1-UEm6pAAaz-AG6vG3OAdhbe3HIi4?usp=drive_link"
                     },
                     {
                       "name": "Algorithmique et Structure de Données",
-                      "source": ""
+                      "source": "https://drive.google.com/drive/folders/1grV2a19Q_n47LRBK8LfXbR2ypkaxC_GC?usp=drive_link"
                     }
                   ]
                 },
@@ -150,31 +150,31 @@
                   "courses": [
                     {
                       "name": "Economie Numérique et veille Stratégique",
-                      "source": ""
+                      "source": "https://drive.google.com/drive/folders/1t_fDlFph4FilcXs8gSTvfmUaI5Zu_FTf?usp=drive_link"
                     },
                     {
                       "name": "Programmation Linéaire",
-                      "source": ""
+                      "source": "https://drive.google.com/drive/folders/1TIgMstz_4o0tOlym-bUPExiesFsLu_Cv?usp=drive_link"
                     },
                     {
                       "name": "Probabilités et Statistiques",
-                      "source": ""
+                      "source": "https://drive.google.com/drive/folders/1m-pAM-zojNHgCJOI-F2YIQNIbQy2wU8C?usp=drive_link"
                     },
                     {
                       "name": "Interface Homme Machine",
-                      "source": ""
+                      "source": "https://drive.google.com/drive/folders/1r-TY1btfYv-NEqeeaLNJ_bJWs6DQdjBL?usp=drive_link"
                     },
                     {
                       "name": "Génie Logiciel",
-                      "source": ""
+                      "source": "https://drive.google.com/drive/folders/1Of2xqwk92pj6lcWvQm25G22nd-q_6jrd?usp=drive_link"
                     },
                     {
                       "name": "Compilation",
-                      "source": ""
+                      "source": "https://drive.google.com/drive/folders/1w48jpXmKwFI9PqfMSFwM0TQsZOZQSgDb?usp=drive_link"
                     },
                     {
                       "name": "Systèmes d'Exploitation",
-                      "source": ""
+                      "source": "https://drive.google.com/drive/folders/1ZesdIdgYbRVv1erKRFsypWpSbjEL2RiM?usp=sharing"
                     }
                   ]
                 },
@@ -183,31 +183,31 @@
                   "courses": [
                     {
                       "name": "Créer et Développer une startup",
-                      "source": ""
+                      "source": "https://drive.google.com/drive/folders/1t8s-sVpnO9O2RGfVKoZQ0TarOaJTQVtu?usp=drive_link"
                     },
                     {
-                      "name": "Projet",
-                      "source": ""
+                      "name": "Projet Atelier",
+                      "source": "https://drive.google.com/drive/folders/1moWAtlcAhRqKP7t8n-Q8eMvuk9k_fC8Y?usp=drive_link"
                     },
                     {
                       "name": "Données semi-structurées DS",
-                      "source": ""
+                      "source": "https://drive.google.com/drive/folders/1-ICj7cDgMBpRmRy8xQoOUVaavl7I2EsH?usp=drive_link"
                     },
                     {
                       "name": "Intelligence Artificielle",
-                      "source": ""
+                      "source": "https://drive.google.com/drive/folders/1lik-WZHIKkK5CerBN2Jj_5apNizaHqSE?usp=drive_link"
                     },
                     {
-                      "name": "Module Rédaction scientifique",
-                      "source": ""
+                      "name": "Rédaction scientifique",
+                      "source": "https://drive.google.com/drive/folders/1leMXx4Gf0djENK4e40v9nSeaJiiz8DhW?usp=drive_link"
                     },
                     {
-                      "name": "Module Sécurité Informatique",
-                      "source": ""
+                      "name": "Sécurité Informatique",
+                      "source": "https://drive.google.com/drive/folders/1l_C34jCQ7gBA2IucBxXLkBQ39eFtJBgz?usp=drive_link"
                     },
                     {
                       "name": "Applications Mobiles",
-                      "source": ""
+                      "source": "https://drive.google.com/drive/folders/1moa7R0_mLBjnT3Mf8DelYk6CbI3F7pdF?usp=drive_link"
                     }
                   ]
                 }
@@ -217,25 +217,27 @@
               "name": "Master",
               "majors": [
                 {
-                  "name": "ilm",
+                  "name": "Informatique Légale et Multimedia",
                   "semester": [
                     {
-                      "name": "semester_1",
+                      "name": "Semester_1",
                       "courses": [
-                        { "name": "Langue Etrangère 1", "source": "" },
+                        { "name": "Langue Etrangère 1",
+                          "source": ""
+                        },
                         {
                           "name": "Droit et Etique informatiques",
-                          "source": ""
+                          "source": "https://drive.google.com/drive/folders/14qjuSjV0__VTyluPSUOid3tVLoWM38ew?usp=drive_link"
                         },
                         {
                           "name": "Traitement Numérique du Multimédia",
-                          "source": ""
+                          "source": "https://drive.google.com/drive/folders/1yG2yrgv7VNWcVahyGXGEuG1MBhQH3lg8?usp=drive_link"
                         },
-                        { "name": "Analyse de Données", "source": "" },
-                        { "name": "Base de Données et Internet", "source": "" },
-                        { "name": "Systèmes de Reconnaissance", "source": "" },
-                        { "name": "Cryptologie", "source": "" },
-                        { "name": "Cybercriminalité", "source": "" }
+                        { "name": "Analyse de Données", "source": "https://drive.google.com/drive/folders/1UW6kn52--PsHhTMMM9EXaIYF-f_oSxHk?usp=drive_link" },
+                        { "name": "Base de Données et Internet", "source": "https://drive.google.com/drive/folders/1W1jzVPHMlvCzIYu3_jajbhDQ3jDdcXQm?usp=drive_link" },
+                        { "name": "Systèmes de Reconnaissance", "source": "https://drive.google.com/drive/folders/1Exiiu7sFmiYxOwZwUFz2YXcmj-TBi_YB?usp=drive_link" },
+                        { "name": "Cryptologie", "source": "https://drive.google.com/drive/folders/1UGRHzP5efQn4NMVyyr9p7obKY_yIZnK4?usp=drive_link" },
+                        { "name": "Cybercriminalité", "source": "https://drive.google.com/drive/folders/1vD6ioMLHmFBRw_aXPMVs7h_eYX9QsJCg?usp=drive_link" }
                       ]
                     },
                     {
@@ -243,18 +245,18 @@
                       "courses": [
                         { "name": "Langue Etrangère 2", "source": "" },
                         { "name": "Rapport Techniques", "source": "" },
-                        { "name": "Fouille de donnée", "source": "" },
+                        { "name": "Fouille de donnée", "source": "https://drive.google.com/drive/folders/1mxrB2gaXOrzG6vFguDbaJwJkqtjqC74t?usp=drive_link" },
                         {
                           "name": "Commerce et Paiement Electroniques",
-                          "source": ""
+                          "source": "https://drive.google.com/drive/folders/1Da96D2SorfZkbZ_3gMWdIFGKdzpXpt19?usp=drive_link"
                         },
                         {
                           "name": "Menaces et Intrusions Informatique",
-                          "source": ""
+                          "source": "https://drive.google.com/drive/folders/1l6K79rj1bWyet6cov4rR3ucbvR15x1n4?usp=drive_link"
                         },
-                        { "name": "Cryptologie II", "source": "" },
-                        { "name": "Biométrie", "source": "" },
-                        { "name": "TNM 2", "source": "" }
+                        { "name": "Cryptologie II", "source": "https://drive.google.com/drive/folders/1THhlyGPCRULiJ3Zd3f56bv-aS1Udq81C?usp=drive_link" },
+                        { "name": "Biométrie", "source": "https://drive.google.com/drive/folders/1r4NZDErZkL1dC9ZWsJeuVmuUHVYr9A-p?usp=drive_link" },
+                        { "name": "TNM 2", "source": "https://drive.google.com/drive/folders/1oiSXm9B7QwJi3EO-l0J4IecJxcidaPzf?usp=drive_link" }
                       ]
                     },
                     {
@@ -288,7 +290,7 @@
                   ]
                 },
                 {
-                  "name": "siad",
+                  "name": "SIAD",
                   "semester": [
                     {
                       "name": "semester_1",
@@ -589,7 +591,7 @@
       ]
     },
     {
-      "name": "fsnv",
+      "name": "Faculte des Science et Technologie",
       "departments": [
         {
           "name": "electronique",
