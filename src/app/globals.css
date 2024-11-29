@@ -74,3 +74,18 @@ body {
 #book {
   transform: rotateX(360deg) rotateZ(2deg) perspective(1000px);
 }
+
+::-webkit-scrollbar {
+  width: 7px;
+
+}
+
+::-webkit-scrollbar-track {
+  background-color: #424242;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #29BBEF;
+  border-radius: 50px;
+}

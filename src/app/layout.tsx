@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased h-full min-h-screen bg-fixed lg:bg-[url('/websitebackground.png')] bg-[url('/Websitebackgmobile.png')] bg-cover bg-center bg-no-repeat flex flex-col`}
+        className={`${geistSans.variable} ${geistMono.variable} scroll-smooth antialiased h-full min-h-screen bg-fixed lg:bg-[url('/websitebackground.png')] bg-[url('/Websitebackgmobile.png')] bg-cover bg-center bg-no-repeat flex flex-col`}
       >
         <main className="flex-grow">{children}</main>
         <Footer />

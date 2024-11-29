@@ -65,7 +65,7 @@ export default function Home() {
         <div className="flex flex-wrap gap-16 justify-center lg:px-20 ">
           {faculty.map((f) => (
             <DropdownMenu key={f.name}>
-              <DropdownMenuTrigger>
+              <DropdownMenuTrigger className="outline-none">
                 <FacultyList href="" fName={f.name} />
               </DropdownMenuTrigger>
               <DropdownMenuContent
