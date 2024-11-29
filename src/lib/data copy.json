@@ -450,7 +450,7 @@
                   ]
                 },
                 {
-                  "name": "ai",
+                  "name": "Intelligence Artificielle",
                   "semester": [
                     {
                       "name": "semester_1",
@@ -519,18 +519,18 @@
                         },
                         {
                           "name": "Indexation et Recherche d'Images IRI",
-                          "source": ""
+                          "source": "https://drive.google.com/drive/folders/1VoUVfmrOUyIBNn6FnxPa_P05wOB2cqPj?usp=drive_link"
                         },
-                        { "name": "Fouille de Données FD", "source": "" },
-                        { "name": "Théorie des jeux (JT)", "source": "" },
-                        { "name": "Systémes Intelligents SI", "source": "" },
+                        { "name": "Fouille de Données FD", "source": "https://drive.google.com/drive/folders/1BHtWoPHx7mQxQPIUl15epQZ-dx4iiz_k?usp=drive_link" },
+                        { "name": "Théorie des jeux (JT)", "source": "https://drive.google.com/drive/folders/1ZvhQ6mG0JbbiPS_1JQhwL2cVqyqyKN3f?usp=drive_link" },
+                        { "name": "Systémes Intelligents SI", "source": "https://drive.google.com/drive/folders/1yVZSG-jX2ZHR0sDPr8_SP0bjvxXK172Y?usp=drive_link" },
                         {
                           "name": "Vision et Perception de l'Environnement (VPE)",
-                          "source": ""
+                          "source": "https://drive.google.com/drive/folders/1vzgTcwdRNwbHRsMpzPp7pbkCbSNRT0Bb?usp=drive_link"
                         },
                         {
                           "name": "Analyse & Synthèse d'Image(ASI)",
-                          "source": ""
+                          "source": "https://drive.google.com/drive/folders/1hv35odtn8Le0S_78SLRpivL2VGsi9WR3?usp=drive_link"
                         }
                       ]
                     }
@@ -541,10 +541,10 @@
           ]
         },
         {
-          "name": "sciences_exact",
+          "name": "Mathematique",
           "type": [
             {
-              "name": "math",
+              "name": "Licence",
               "semester": [
                 { "name": "semester_1", "courses": [] },
                 { "name": "semester_2", "courses": [] },
@@ -555,39 +555,35 @@
               ]
             },
             {
-              "name": "sm",
+              "name": "Master",
               "semester": [
                 { "name": "semester_1", "courses": [] },
                 { "name": "semester_2", "courses": [] }
-              ]
-            },
-            {
-              "name": "mi",
-              "semester": [
-                { "name": "semester_1", "courses": [] },
-                { "name": "semester_2", "courses": [] }
-              ]
-            },
-            {
-              "name": "physics",
-              "semester": [
-                { "name": "semester_3", "courses": [] },
-                { "name": "semester_4", "courses": [] },
-                { "name": "semester_5", "courses": [] },
-                { "name": "semester_6", "courses": [] }
-              ]
-            },
-            {
-              "name": "chimie",
-              "semester": [
-                { "name": "semester_3", "courses": [] },
-                { "name": "semester_4", "courses": [] },
-                { "name": "semester_5", "courses": [] },
-                { "name": "semester_6", "courses": [] }
               ]
             }
           ]
-        }
+        },
+        {
+          "name" : "Chimie",
+          "type": [
+            {
+              "name": "Licence",
+              "semester": [
+                { "name": "semester_3", "courses": [] },
+                { "name": "semester_4", "courses": [] },
+                { "name": "semester_5", "courses": [] },
+                { "name": "semester_6", "courses": [] }
+              ]
+            },
+            {
+              "name": "Master",
+              "semester": [
+                { "name": "semester_1", "courses": [] },
+                { "name": "semester_2", "courses": [] }
+              ]
+            }
+          ]
+      }
       ]
     },
     {

@@ -21,6 +21,7 @@ import {
 import { useState } from "react";
 import { DialogTitle, DialogTrigger } from "@radix-ui/react-dialog";
 import React from "react";
+import { Divide } from "lucide-react";
 export default function Departement() {
   const [isLicenceExpanded, setIsLicenceExpanded] = useState(false);
   const [isMasterExpanded, setIsMasterExpanded] = useState(false);
@@ -85,7 +86,9 @@ export default function Departement() {
                   </DialogTitle>
                   {Courses.map((c) => (
                     <div className="flex gap-3 items-center" key={c.name}>
-                      <a
+                      {c.source ==="" ? <div className="py-2 text-md rounded-xl bg-slate-100 px-4 w-full">No Drive link available for <span className=" font-bold ">{c.name}</span></div> : 
+                      <div className="flex items-center w-full gap-3">
+                        <a
                         href={c.source}
                         target="_blank"
                         className="py-2 text-md rounded-xl bg-slate-100 px-4 w-full text-center"
@@ -100,7 +103,8 @@ export default function Departement() {
                           onClick={() => copyToClipboard(c.name, c.source)}
                           className="cursor-pointer"
                         />
-                      )}
+                      )}</div> }
+                      
                     </div>
                   ))}
                 </DialogContent>
@@ -162,24 +166,24 @@ export default function Departement() {
                                     className="flex gap-3 items-center"
                                     key={c.name}
                                   >
-                                    <a
-                                      href={c.source}
-                                      target="_blank"
-                                      className="py-2 text-md rounded-xl bg-slate-100 px-4 w-full text-center"
-                                      rel="noopener noreferrer"
-                                    >
-                                      {c.name}
-                                    </a>
-                                    {copiedCourse === c.name ? (
-                                      <BsClipboard2CheckFill className="text-green-500" />
-                                    ) : (
-                                      <FaCopy
-                                        onClick={() =>
-                                          copyToClipboard(c.name, c.source)
-                                        }
-                                        className="cursor-pointer"
-                                      />
-                                    )}
+                                   {c.source ==="" ? <div className="py-2 text-md rounded-xl bg-slate-100 px-4 w-full">No Drive link available for <span className=" font-bold ">{c.name}</span></div> : 
+                      <div className="flex items-center w-full gap-3">
+                        <a
+                        href={c.source}
+                        target="_blank"
+                        className="py-2 text-md rounded-xl bg-slate-100 px-4 w-full text-center"
+                        rel="noopener noreferrer"
+                      >
+                        {c.name}
+                      </a>
+                      {copiedCourse === c.name ? (
+                        <BsClipboard2CheckFill className="text-green-500" />
+                      ) : (
+                        <FaCopy
+                          onClick={() => copyToClipboard(c.name, c.source)}
+                          className="cursor-pointer"
+                        />
+                      )}</div> }
                                   </div>
                                 ))}
                               </DialogContent>
@@ -216,24 +220,24 @@ export default function Departement() {
                                     className="flex gap-3 items-center"
                                     key={c.name}
                                   >
-                                    <a
-                                      href={c.source}
-                                      target="_blank"
-                                      className="py-2 text-md rounded-xl bg-slate-100 px-4 w-full text-center"
-                                      rel="noopener noreferrer"
-                                    >
-                                      {c.name}
-                                    </a>
-                                    {copiedCourse === c.name ? (
-                                      <BsClipboard2CheckFill className="text-green-500" />
-                                    ) : (
-                                      <FaCopy
-                                        onClick={() =>
-                                          copyToClipboard(c.name, c.source)
-                                        }
-                                        className="cursor-pointer"
-                                      />
-                                    )}
+                                    {c.source ==="" ? <div className="py-2 text-md rounded-xl bg-slate-100 px-4 w-full">No Drive link available for <span className=" font-bold ">{c.name}</span></div> : 
+                      <div className="flex items-center w-full gap-3">
+                        <a
+                        href={c.source}
+                        target="_blank"
+                        className="py-2 text-md rounded-xl bg-slate-100 px-4 w-full text-center"
+                        rel="noopener noreferrer"
+                      >
+                        {c.name}
+                      </a>
+                      {copiedCourse === c.name ? (
+                        <BsClipboard2CheckFill className="text-green-500" />
+                      ) : (
+                        <FaCopy
+                          onClick={() => copyToClipboard(c.name, c.source)}
+                          className="cursor-pointer"
+                        />
+                      )}</div> }
                                   </div>
                                 ))}
                               </DialogContent>
