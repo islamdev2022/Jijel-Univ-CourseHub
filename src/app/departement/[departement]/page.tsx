@@ -1,37 +1,31 @@
 "use client";
 import { useParams } from "next/navigation";
-import { faculty } from "@/lib/data copy.json";
-import { Button } from "@/components/ui/button";
+import data from "@/lib/data copy.json";
 import { BsClipboard2CheckFill } from "react-icons/bs";
 import { FaCopy } from "react-icons/fa";
 import {
   Dialog,
   DialogContent,
-  DialogClose,
-  DialogFooter,
 } from "@/components/ui/dialog";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { useState } from "react";
 import { DialogTitle, DialogTrigger } from "@radix-ui/react-dialog";
 import React from "react";
-import { Divide } from "lucide-react";
 export default function Departement() {
   const [isLicenceExpanded, setIsLicenceExpanded] = useState(false);
   const [isMasterExpanded, setIsMasterExpanded] = useState(false);
-  const [isDialogOpen, setIsDialogOpen] = useState(false);
-  const [Courses, setCourses] = useState(new Array());
+  const [Courses, setCourses] = useState<{ name: string; source: string }[]>([]);
   const [semester, setSemester] = useState("");
   const [copiedCourse, setCopiedCourse] = useState<string | null>(null);
-
+  const { faculty } = data;
   const { departement } = useParams();
-  let depa = faculty
+  const depa = faculty
     .map((f) => f.departments.find((d) => d.name === departement))
     .find((d) => d?.name !== undefined);
 

@@ -1,15 +1,12 @@
 "use client";
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import FacultyList from "@/components/FacultyList";
-import Footer from "@/components/Footer";
-import { faculty } from "@/lib/data copy.json";
+import data from "@/lib/data copy.json";
 import { useRouter } from "next/navigation";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
@@ -25,6 +22,7 @@ import {
 import React from "react";
 export default function Home() {
   const router = useRouter();
+  const { faculty } = data;
   return (
     <div className="flex flex-col min-h-screen">
       <div className="flex flex-col p-3 space-y-[14px] items-center justify-center">
