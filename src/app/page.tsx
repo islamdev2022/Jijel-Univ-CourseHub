@@ -11,6 +11,8 @@ import {   DropdownMenu,
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger, } from "@/components/ui/dropdown-menu";
+  import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogTrigger } from "@/components/ui/dialog";
+
 import React from "react";
 export default function Home() {
   const router = useRouter();
@@ -18,14 +20,24 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       <div className="flex flex-col p-3 space-y-[14px] items-center justify-center">
       <div className="relative space-y-2">
-      {/* <div className="absolute w-full h-full bg-blue-100 top-0 left-0 z-0 blur-[100px] "></div> */}
       <h1 className="text-[24px]  max-sm:text-[16px] font-bold text-black text-center">Unlock Your Learning Path: Explore All University Courses Here</h1>
-   {/* <p className="text-sm max-sm:text-xs leading-5 font-semibold text-white/80">Welcome to your go-to platform for accessing every course offered at University of Jijel! Whether you're catching up, revising, or getting a head start, find all course materials and resources in one place to support your academic journey. Dive in and stay ahead with everything you need at your fingertips.</p> */}
       </div>
-      <div id="d" className="relative flex items-center  ">
-      
+      <div id="d" className="relative flex flex-col items-center  ">
       <img src="book.png" id="book" alt="logo" className="z-50 w-[220px]  h-[170px] max-sm:w-[150px] max-sm:h-[80px]  " />
 
+      <Dialog>
+        <DialogTrigger asChild>
+          <Button className="bg-esperanza_cyan_blue font-bold hover:bg-esperanza_very_cyan_blue">IMPORTANT README !!!!</Button>
+        </DialogTrigger>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle className="text-red-500 underline text-center text-xl">Information ! </DialogTitle>
+            <DialogDescription>
+              All these Drive links were scattered, and I&apos;ve combined them into one website for everyone to access easily. For the professors, I&apos;ve ensured that protected files (PDFs with passwords) were not included. If anyone have anything to add or share, feel free to contact us through the club&apos;s page!
+            </DialogDescription>
+          </DialogHeader>
+        </DialogContent>
+      </Dialog>
       </div>
       <div className="flex flex-wrap gap-16 justify-center lg:px-20 ">
 

@@ -2,12 +2,8 @@
 import { useParams } from "next/navigation";
 import { faculty } from "@/lib/data copy.json";
 import { Button } from "@/components/ui/button";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionTrigger,
-  AccordionItem,
-} from "@/components/ui/accordion";
+import { BsClipboard2CheckFill } from "react-icons/bs";
+import { FaCopy } from "react-icons/fa";
 import {
   Dialog,
   DialogContent,
@@ -31,16 +27,17 @@ export default function Departement() {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
   const [Courses, setCourses] = useState(new Array());
   const [semester, setSemester] = useState("");
+  const [copiedCourse, setCopiedCourse] = useState<string | null>(null);
 
   const { departement } = useParams();
   let depa = faculty
     .map((f) => f.departments.find((d) => d.name === departement))
     .find((d) => d?.name !== undefined);
 
-  const copyToClipboard = (text: string) => {
-    navigator.clipboard.writeText(text).catch((err) => {
-      console.error("Failed to copy text: ", err);
-    });
+  const copyToClipboard = (name: string, source: string) => {
+    navigator.clipboard.writeText(source); // Copy to clipboard
+    setCopiedCourse(name); // Set the copied course
+    setTimeout(() => setCopiedCourse(null), 2000); // Reset after 2 seconds
   };
 
   return (
@@ -87,23 +84,23 @@ export default function Departement() {
                     {semester.replace(/_/g, " ").toUpperCase()}
                   </DialogTitle>
                   {Courses.map((c) => (
-                    <div className="flex gap-3" key={c.name}>
+                    <div className="flex gap-3 items-center" key={c.name}>
                       <a
                         href={c.source}
+                        target="_blank"
                         className="py-2 text-md rounded-xl bg-slate-100 px-4 w-full text-center"
+                        rel="noopener noreferrer"
                       >
                         {c.name}
                       </a>
-                      <button
-                        onClick={() => copyToClipboard(c.source)}
-                        className=""
-                      >
-                        <img
-                          src="/icons8-copy-100.png"
-                          alt="copy"
-                          className="w-5"
+                      {copiedCourse === c.name ? (
+                        <BsClipboard2CheckFill className="text-green-500" />
+                      ) : (
+                        <FaCopy
+                          onClick={() => copyToClipboard(c.name, c.source)}
+                          className="cursor-pointer"
                         />
-                      </button>
+                      )}
                     </div>
                   ))}
                 </DialogContent>
@@ -161,23 +158,28 @@ export default function Departement() {
                                 </DialogTitle>
 
                                 {Courses.map((c) => (
-                                  <div className="flex gap-3" key={c.name}>
+                                  <div
+                                    className="flex gap-3 items-center"
+                                    key={c.name}
+                                  >
                                     <a
                                       href={c.source}
+                                      target="_blank"
                                       className="py-2 text-md rounded-xl bg-slate-100 px-4 w-full text-center"
+                                      rel="noopener noreferrer"
                                     >
                                       {c.name}
                                     </a>
-                                    <button
-                                      onClick={() => copyToClipboard(c.source)}
-                                      className=""
-                                    >
-                                      <img
-                                        src="/icons8-copy-100.png"
-                                        alt="copy"
-                                        className="w-5"
+                                    {copiedCourse === c.name ? (
+                                      <BsClipboard2CheckFill className="text-green-500" />
+                                    ) : (
+                                      <FaCopy
+                                        onClick={() =>
+                                          copyToClipboard(c.name, c.source)
+                                        }
+                                        className="cursor-pointer"
                                       />
-                                    </button>
+                                    )}
                                   </div>
                                 ))}
                               </DialogContent>
@@ -210,23 +212,28 @@ export default function Departement() {
                                   Courses
                                 </DialogTitle>
                                 {Courses.map((c) => (
-                                  <div className="flex gap-3" key={c.name}>
+                                  <div
+                                    className="flex gap-3 items-center"
+                                    key={c.name}
+                                  >
                                     <a
                                       href={c.source}
+                                      target="_blank"
                                       className="py-2 text-md rounded-xl bg-slate-100 px-4 w-full text-center"
+                                      rel="noopener noreferrer"
                                     >
                                       {c.name}
                                     </a>
-                                    <button
-                                      onClick={() => copyToClipboard(c.source)}
-                                      className=""
-                                    >
-                                      <img
-                                        src="/icons8-copy-100.png"
-                                        alt="copy"
-                                        className="w-5"
+                                    {copiedCourse === c.name ? (
+                                      <BsClipboard2CheckFill className="text-green-500" />
+                                    ) : (
+                                      <FaCopy
+                                        onClick={() =>
+                                          copyToClipboard(c.name, c.source)
+                                        }
+                                        className="cursor-pointer"
                                       />
-                                    </button>
+                                    )}
                                   </div>
                                 ))}
                               </DialogContent>
