@@ -15,10 +15,10 @@ import React from "react";
 export default function Home() {
   const router = useRouter();
   return (
-    <div className="h-fit">
+    <div className="flex flex-col min-h-screen">
       <div className="flex flex-col p-3 space-y-[14px] items-center justify-center">
       <div className="relative space-y-2">
-      <div className="absolute w-full h-full bg-blue-100 top-0 left-0 z-0 blur-[100px] "></div>
+      {/* <div className="absolute w-full h-full bg-blue-100 top-0 left-0 z-0 blur-[100px] "></div> */}
       <h1 className="text-[24px]  max-sm:text-[16px] font-bold text-black text-center">Unlock Your Learning Path: Explore All University Courses Here</h1>
    {/* <p className="text-sm max-sm:text-xs leading-5 font-semibold text-white/80">Welcome to your go-to platform for accessing every course offered at University of Jijel! Whether you're catching up, revising, or getting a head start, find all course materials and resources in one place to support your academic journey. Dive in and stay ahead with everything you need at your fingertips.</p> */}
       </div>
@@ -34,9 +34,9 @@ export default function Home() {
     <DropdownMenuTrigger>
       <FacultyList href="" fName={f.name} />
     </DropdownMenuTrigger>
-    <DropdownMenuContent align="center" side="bottom">
+    <DropdownMenuContent align="center" side="bottom" className="px-5 ">
       {f.departments.map((d, index) => (
-        <React.Fragment key={index}><DropdownMenuItem  onClick={() => router.push(`/departement/${d.name}`)} key={d.name}>{d.name.replace(/_/g, " ")}</DropdownMenuItem>
+      <React.Fragment key={index}><DropdownMenuItem className="cursor-pointer h-10 uppercase" onClick={() => router.push(`/departement/${d.name}`)} key={d.name}>{d.name.replace(/_/g, " ")}</DropdownMenuItem>
         {index < f.departments.length - 1 && <DropdownMenuSeparator key={d.name + Math.random()} />}
         </React.Fragment>
       ))}
@@ -48,7 +48,7 @@ export default function Home() {
 
       </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

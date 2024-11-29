@@ -608,10 +608,9 @@
             {
               "name": "Master",
               "semester": [
-                { "name": "semester_3", "courses": [] },
-                { "name": "semester_4", "courses": [] },
-                { "name": "semester_5", "courses": [] },
-                { "name": "semester_6", "courses": [] }
+                { "name": "semester_1", "courses": [] },
+                { "name": "semester_2", "courses": [] },
+                { "name": "semester_3", "courses": [] }
               ]
             }
           ]
@@ -722,59 +721,8 @@
               "semester": []
             }
           ]
-        },
-        {
-          "name": "enseignements_fondamentaux_dans_le_domaine_des_sciences_et_technologie",
-          "type": [
-            {
-              "name": "Licence",
-              "semester": [
-                {
-                  "name": "semester_1",
-                  "courses": [
-                    { "name": "Mathématiques 1", "source": "" },
-                    { "name": "Physique 1", "source": "" },
-                    { "name": "Structure de la matière", "source": "" },
-                    { "name": "TP Physique 1", "source": "" },
-                    { "name": "TP Chimie 1", "source": "" },
-                    { "name": "Informatique 1", "source": "" },
-                    { "name": "Méthodologie de la rédaction", "source": "" },
-                    {
-                      "name": "Les métiers en Sciences et Technologies 1",
-                      "source": ""
-                    },
-                    {
-                      "name": "Langue étrangère 1 (Français et/ou anglais)",
-                      "source": ""
-                    },
-                    {
-                      "name": "Ethique et déontologie(les fondements)",
-                      "source": ""
-                    }
-                  ]
-                },
-                {
-                  "name": "semester_2",
-                  "courses": [
-                    { "name": "Mathématiques 2", "source": "" },
-                    { "name": "Physique 2", "source": "" },
-                    { "name": "TP Physique 2", "source": "" },
-                    { "name": "Thermodynamique", "source": "" },
-                    { "name": "TP Chimie 2", "source": "" },
-                    { "name": "Informatique 2", "source": "" },
-                    { "name": "Méthodologie de la présentation", "source": "" },
-                    {
-                      "name": "Les métiers en Sciences et Technologies 2",
-                      "source": ""
-                    },
-                    { "name": "Anglais 2", "source": "" },
-                    { "name": "archive22-23 TP Chimie 2", "source": "" }
-                  ]
-                }
-              ]
-            }
-          ]
         }
+        
       ]
     }
   ]
