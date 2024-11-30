@@ -3,6 +3,8 @@ import { useParams } from "next/navigation";
 import data from "@/lib/data copy.json";
 import { BsClipboard2CheckFill } from "react-icons/bs";
 import { FaCopy } from "react-icons/fa";
+import Link from "next/link";
+import { IoArrowBackOutline } from "react-icons/io5";
 import {
   Dialog,
   DialogContent,
@@ -41,6 +43,10 @@ export default function Departement() {
         <h1 className="text-2xl font-semibold font-sans text-center">
           Departement : {depa?.name.replace(/_/g, " ")}
         </h1>
+        <div className="flex justify-center ">
+        <Link href="/" className=" underline hover:text-esperanza_cyan_blue underline-offset-2 flex items-center gap-1"><IoArrowBackOutline />Back to Home</Link>
+        </div>
+        
         <div className=" flex flex-wrap gap-10 justify-center ">
           {/* Licence Section */}
           <div className="flex h-max shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flex-col items-center rounded-xl py-3 w-[250px] bg-white space-y-5">
