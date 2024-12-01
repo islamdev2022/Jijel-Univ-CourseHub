@@ -459,21 +459,25 @@
                           "name": "Environnement et Programmation Dédiée",
                           "source": ""
                         },
-                        { "name": "Langue Etrangère", "source": "" },
-                        { "name": "Sémantique des Languages", "source": "" },
-                        { "name": "Graphes et Optimisation", "source": "" },
+                        { "name": "Langue Etrangère", "source": "https://drive.google.com/drive/folders/1n_uPvlgMtvEMY26ZNcYS0jKZWUhHI9dw?usp=drive_link" },
+                        { "name": "Sémantique des Languages", "source": "https://drive.google.com/drive/folders/1oGjnjx6yVDn_d80SBIT84qIrT6zEMXNp?usp=drive_link" },
+                        { "name": "Graphes et Optimisation", "source": "https://drive.google.com/drive/folders/1eRJ9wYmsTtGa-seC9-J-ClFRmdduzrAu?usp=drive_link" },
                         {
                           "name": "Techniques Avancées pour l'IA",
-                          "source": ""
+                          "source": "https://drive.google.com/drive/folders/1XQTV58kn45Ij4RuE09DhtQMb-NTVfZ_U?usp=drive_link"
                         },
                         {
                           "name": "Résolution Collective des Problèmes RCP",
-                          "source": ""
+                          "source": "https://drive.google.com/drive/folders/1GXVp3VCJUxE8z8OFHCB_ge92PXXcAYVv?usp=drive_link"
                         },
-                        { "name": "Apprentissage Automatique", "source": "" },
+                        { "name": "Apprentissage Automatique", "source": "https://drive.google.com/drive/folders/1TxiDl4rNNP_zCgZMIh0sZ-1XbG2pUoRU?usp=drive_link" },
                         {
                           "name": "Représentation de la Connaissance RC",
-                          "source": ""
+                          "source": "https://drive.google.com/drive/folders/1KoqgndK1OPqXKP135Har58bqETv3nudc?usp=drive_link"
+                        },
+                        {
+                          "name": "Exams and corrections",
+                          "source": "https://drive.google.com/drive/folders/1-XzA5g7jS7t-ZcHjQkWROFgb5004OlIe?usp=drive_link"
                         }
                       ]
                     },
@@ -511,18 +515,18 @@
                       "courses": [
                         {
                           "name": "Recherche Documentaire et Rapport Technique RDRT",
-                          "source": ""
+                          "source": "https://drive.google.com/drive/folders/14EG0sPt3e0Addw6cNPonVk6yKeHIFJRq"
                         },
                         {
                           "name": "Déontologie et Ethique Informatique DEI",
-                          "source": ""
+                          "source": "https://drive.google.com/drive/folders/17TigpNbj6IgcPxyLX81Lqh-l7eQw9VoN"
                         },
                         {
                           "name": "Indexation et Recherche d'Images IRI",
-                          "source": "https://drive.google.com/drive/folders/1VoUVfmrOUyIBNn6FnxPa_P05wOB2cqPj?usp=drive_link"
+                          "source": "https://drive.google.com/drive/folders/1sFLuokW7rirBJIJuqEra4rgLUB-U5UNo?usp=drive_link"
                         },
-                        { "name": "Fouille de Données FD", "source": "https://drive.google.com/drive/folders/1BHtWoPHx7mQxQPIUl15epQZ-dx4iiz_k?usp=drive_link" },
-                        { "name": "Théorie des jeux (JT)", "source": "https://drive.google.com/drive/folders/1ZvhQ6mG0JbbiPS_1JQhwL2cVqyqyKN3f?usp=drive_link" },
+                        { "name": "Fouille de Données FD", "source": "https://drive.google.com/drive/folders/1FwYVK0-lLL40TXUcKJ4adIPpcSfjiHGj" },
+                        { "name": "Théorie des jeux (JT)", "source": "https://drive.google.com/drive/folders/11OgB85nrAe7ReOsk31vxfodNF4yOVGas" },
                         { "name": "Systémes Intelligents SI", "source": "https://drive.google.com/drive/folders/1yVZSG-jX2ZHR0sDPr8_SP0bjvxXK172Y?usp=drive_link" },
                         {
                           "name": "Vision et Perception de l'Environnement (VPE)",
@@ -530,7 +534,7 @@
                         },
                         {
                           "name": "Analyse & Synthèse d'Image(ASI)",
-                          "source": "https://drive.google.com/drive/folders/1hv35odtn8Le0S_78SLRpivL2VGsi9WR3?usp=drive_link"
+                          "source": "https://drive.google.com/drive/u/0/folders/1W3ftBnCJsBNEAq9E9jnnC0HI566u5Mh2"
                         }
                       ]
                     }
