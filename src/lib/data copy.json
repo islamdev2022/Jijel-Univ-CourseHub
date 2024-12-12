@@ -552,8 +552,14 @@
               "semester": [
                 { "name": "semester_1", "courses": [] },
                 { "name": "semester_2", "courses": [] },
-                { "name": "semester_3", "courses": [] },
-                { "name": "semester_4", "courses": [] },
+                { "name": "semester_3", "courses": [
+                  { "name": "Exams", "source": "https://drive.google.com/drive/folders/1BbL5BZv1XBL8_HzHFWzeEniimd78J8dR" },
+                  {"name" : "Interrogation","source" : "https://drive.google.com/drive/folders/1Aa7I2gCrG5fi9SQD-M5rCRIMpARQU2Mw"}
+                ] },
+                { "name": "semester_4", "courses": [
+                  { "name": "Interrogation", "source": "https://drive.google.com/drive/folders/19yHVZpxFxpnUY_dv_DiV__kmg_BrWQFX" },
+                  {"name" : "Rattrapage","source" : "https://drive.google.com/drive/folders/19LP8cpABTNP0ZWiX-OhRYTvrUBmMJTfv"}
+                ] },
                 { "name": "semester_5", "courses": [] },
                 { "name": "semester_6", "courses": [] }
               ]
@@ -643,10 +649,8 @@
             {
               "name": "Licence",
               "semester": [
-                { "name": "semester_3", "courses": [] },
-                { "name": "semester_4", "courses": [] },
-                { "name": "semester_5", "courses": [] },
-                { "name": "semester_6", "courses": [] }
+                { "name": "semester_5-6", "courses": [{ "name": "General", "source": "https://drive.google.com/drive/folders/1m3ji2OVAgeq6xEO7diyQQkakvZTmflOy" }] }
+               
               ]
             },
             {
@@ -723,6 +727,9 @@
         }
         
       ]
+    },
+    {
+      "name" : "Faculté de Médecine"
     }
   ]
 }
